@@ -33,3 +33,23 @@ Data Analysis is done with the following steps:
 In Data Encoding Converted categorical variables into numerical representations using techniques such as one-hot encoding, label encoding, making them suitable for analysis by machine learning algorithms.
 
 Feature Scaling: After the process of encoding, performed the scaling of the features using standardscaler and minmaxscaler.
+REGRESSION:
+ The objective of this assignment is to evaluate theunderstanding of regression techniques in supervised learning by applying them to a real-world dataset.
+Used the California Housing dataset available in the sklearn library. This dataset contains information about various features of houses in California and their respective median prices.
+Loaded the California Housing dataset using the fetch_california_housing function from sklearn.
+Converted the dataset into a pandas DataFrame for easier handling.
+Handled missing values (if any) and performed necessary feature scaling (e.g., standardization).
+Explained the preprocessing steps performed and justified why they are necessary for this dataset.
+Implemented the following regression algorithms:
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
+Gradient Boosting Regressor
+Support Vector Regressor (SVR)
+Evaluated the performance of each algorithm using the following metrics:
+Mean Squared Error (MSE)
+Mean Absolute Error (MAE)
+R-squared Score (R²)
+Compared the results of all models and identified:The best-performing algorithm andThe worst-performing algorithm. 
+
+
